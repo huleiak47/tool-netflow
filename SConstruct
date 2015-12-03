@@ -6,7 +6,7 @@ def arg(name, default):
     return globals()[name]
 
 arg("TOOLSET"   , "gcc")  # "gcc" or "msvc"
-arg("DEST_NAME" , "demo")
+arg("DEST_NAME" , "netflow")
 arg("DEST_TYPE" , 0)      # "program" = 0   , "sharedlib" = 1 , "staticlib" = 2
 arg("BIN_PATH"  , "bin")
 arg("TMP_PATH"  , "obj")
